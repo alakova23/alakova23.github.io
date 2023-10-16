@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Trirong", serif;
+    font-size: 30px;
+    box-sizing: border-box;
+    background-color: rgb(170, 144, 124);
+    color: rgb(80, 44, 26);
+    text-decoration: none;
+}
+
+.center {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+th,
+td {
+    padding: 7px;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 2%;
+    width: 100%;
+    color:  rgb(80, 44, 26);
+    background-color: #373f3e;
+}
+
+footer>p {
+    font-size: large;
+}
+
+header>a,
+footer>p {
+    color: rgb(80, 44, 26);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.buttons {
+    background-color: #2e322f;
+    color: rgb(201, 183, 173);
+    border-radius: 4px;
+    padding: 15px 30px;
+}
+
+.aboutme_table {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.aboutme_text {
+    text-align: justify;
+    font-size: large;
+    font-weight: lighter;
+}
+
+#aboutmebutton {
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.contacts {
+    font-size: x-large;
+}
+#cities{
+    font-weight: lighter;
+    font-size: large;
+}
